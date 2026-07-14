@@ -5,7 +5,7 @@ team_members = int(input("team_members :"))
 
 total_cost = quantity * cost_price
 total_income = sell_price * quantity
-profit = total_cost - total_income
+profit = total_income - total_cost
 boss_income = 0.2 * total_income
 member_income = (total_income - boss_income) / team_members
 
